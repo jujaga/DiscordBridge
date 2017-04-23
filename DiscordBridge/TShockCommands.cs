@@ -133,7 +133,7 @@ namespace DiscordBridge
 			{
 				e.Player.SendInfoMessage(" * As the Discord unnoficial application API dictates, bots are unable to accept invites.");
 				e.Player.SendInfoMessage(" * Copy the following link to your clipboard and access it with a web browser to register your bot instead.");
-				e.Player.SendInfoMessage(" * https://discordapp.com/oauth2/authorize?client_id=157730590492196864&scope=bot&permissions=0");
+				e.Player.SendInfoMessage(" * https://discordapp.com/oauth2/authorize?client_id=YOURCLIENTID&scope=bot&permissions=0");
 				e.Player.SendInfoMessage(" * Replace client_id with your bot application ID. This is NOT your bot token, but the application client ID itself.");
 				return;
 			}
